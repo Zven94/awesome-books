@@ -1,4 +1,4 @@
-export class BookCollection {
+export default class BookCollection {
   static initialize() {
     const bookCollection = new BookCollection();
     return bookCollection;
@@ -105,5 +105,3 @@ export class BookCollection {
 }
 
 BookCollection.initialize();
-
-console.log('i m in')
