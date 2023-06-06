@@ -39,7 +39,7 @@ liveTimeParent.appendChild(liveTime);
 
 const myLiveTime = () => {
   const myTime = DateTime.local()
-  liveTime.innerHTML = myTime.toLocaleString(DateTime.DATETIME_MED)
+  liveTime.innerHTML = myTime.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS)
 }
 
 setInterval(myLiveTime, 1000);
