@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <h2> Mohammed Roshdy && nicolas </h2>
+  <h2> Awesome books </h2>
   <br/>
 
   <h3><b>Awesome books</b></h3>
@@ -87,7 +87,7 @@ After you're finished please remove all the comments and instructions!
 <!-- Features -->
 <p>the project explation </p>
 
-- coming soon 
+- All the functions and classes of js file were use as modules in separeted files
 
 ### Key Features <a name="key-features"></a>
 
