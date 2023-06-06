@@ -33,11 +33,11 @@ export default class BookCollection {
     });
   }
 
-  saveBooks() {
+  saveBooks = () => {
     localStorage.setItem('books', JSON.stringify(this.books));
   }
 
-  displayBooks() {
+  displayBooks = () => {
     this.bookList.innerHTML = '';
 
     this.books.forEach((book, index) => {
@@ -63,7 +63,7 @@ export default class BookCollection {
     });
   }
 
-  addBook() {
+  addBook = () => {
     const titleInput = document.getElementById('titleInput');
     const authorInput = document.getElementById('authorInput');
     const title = titleInput.value;
@@ -89,13 +89,13 @@ export default class BookCollection {
     this.displayBooks();
   }
 
-  removeBook(index) {
+  removeBook = (index) => {
     this.books.splice(index, 1);
     this.saveBooks();
     this.displayBooks();
   }
 
-  loadBooks() {
+  loadBooks = () => {
     const storedBooks = localStorage.getItem('books');
     if (storedBooks) {
       this.books = JSON.parse(storedBooks);
