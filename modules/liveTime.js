@@ -1,3 +1,4 @@
+/*
 const liveTimeParent = document.getElementById('header');
 console.log(liveTimeParent)
 const liveTime = document.createElement('time');
@@ -25,4 +26,22 @@ const myLiveTime = () => {
 setInterval(myLiveTime, 1000);
 
 export default myLiveTime;
+*/
 
+//import the Date 
+
+import {DateTime} from "./luxon.js";
+
+const liveTimeParent = document.getElementById('header');
+console.log(liveTimeParent)
+const liveTime = document.createElement('time');
+liveTimeParent.appendChild(liveTime);
+
+const myLiveTime = () => {
+  const myTime = DateTime.local()
+  liveTime.innerHTML = myTime.toLocaleString(DateTime.DATETIME_MED)
+}
+
+setInterval(myLiveTime, 1000);
+
+export default myLiveTime;
