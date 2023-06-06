@@ -18,8 +18,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 1.2em;
-/*  border-bottom: 3px solid black; */
-  box-shadow: 0 2px 4px 0 rgba(5,110,200,0.4);
+
+  /*  border-bottom: 3px solid black; */
+  box-shadow: 0 2px 4px 0 rgba(5, 110, 200, 0.4);
 }
 
 .nav h4 {
@@ -32,25 +33,25 @@ body {
   position: relative;
 }
 
-.headerAwesomeBooks::before {  
+.headerAwesomeBooks::before {
   transform: scaleX(0);
   transform-origin: bottom right;
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform 0.3s ease;
 }
 
 .headerAwesomeBooks:hover::before {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
-
-.headerAwesomeBooks::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  inset: 0 0 0 0;
-  background: hsl(200 100% 80%);
-  z-index: -1;
-  transition: transform .3s ease;
 }
 
 header {
@@ -166,8 +167,8 @@ hr {
   padding: 0.4em 1.2em;
   text-align: center;
   border-radius: 6px;
-  border: 1px solid rgba(5,110,200,0.2);
-  box-shadow: 0px 2px rgba(5,110,200,0.4);
+  border: 1px solid rgba(5, 110, 200, 0.2);
+  box-shadow: 0 2px rgba(5, 110, 200, 0.4);
   margin-left: 230px;
   cursor: pointer;
 }
@@ -178,8 +179,8 @@ hr {
   margin: 0 6px 4px;
   background-color: #fff;
   border-radius: 6px;
-  border: 1px solid rgba(5,110,200,0.2);
-  box-shadow: 0px 2px rgba(5,110,200,0.4);
+  border: 1px solid rgba(5, 110, 200, 0.2);
+  box-shadow: 0 2px rgba(5, 110, 200, 0.4);
   cursor: pointer;
 }
 
@@ -205,7 +206,7 @@ hr {
 }
 
 .contactPar {
- font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .contactUl {
@@ -214,8 +215,8 @@ hr {
 
 .copy-right {
   width: 100%;
-  border: 2px solid rgba(5,110,200,0.2);
-  box-shadow: 0 2px 4px 0 rgba(5,110,200,0.4);
+  border: 2px solid rgba(5, 110, 200, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(5, 110, 200, 0.4);
   border-radius: 15px;
   font-size: 1.4rem;
   padding: 0.4em 0;

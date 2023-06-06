@@ -103,5 +103,3 @@ export default class BookCollection {
     }
   }
 }
-
-BookCollection.initialize();
