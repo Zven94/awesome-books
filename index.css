@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  font-weight: 600;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
   list-style: none;
   color: #000;
@@ -17,17 +18,39 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 1.2em;
-  border: 3px solid black;
+/*  border-bottom: 3px solid black; */
+  box-shadow: 0 2px 4px 0 rgba(5,110,200,0.4);
 }
 
 .nav h4 {
-  animation-name: flip;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
   font-size: 1.4em;
-  color: brown;
+  color: #0d6efd;
+  margin: 0;
+}
+
+.headerAwesomeBooks {
+  position: relative;
+}
+
+.headerAwesomeBooks::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.headerAwesomeBooks:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.headerAwesomeBooks::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform .3s ease;
 }
 
 header {
@@ -62,12 +85,11 @@ time {
 }
 
 a {
-  transition: all 0.6s ease-out;
-  color: brown;
+  transition: all 0.5s ease-out;
+  color: #0d6efd;
 }
 
 a:hover {
-  font-size: 1.25em;
   color: rgb(22, 186, 184);
 }
 
@@ -80,7 +102,7 @@ a:hover {
 }
 
 #nav li:not(:last-child) {
-  border-right: 3px solid black;
+  border-right: 3px solid #8d99ae;
   padding: 0 0.4em;
 }
 
@@ -98,18 +120,14 @@ h3 {
   font-size: 2.6rem;
 }
 
-h6 {
-  font-size: 1.3rem;
-  color: chocolate;
-}
-
 #bookList {
   width: 100%;
   list-style: none;
-  padding: 0 10px;
+  padding: 1px 10px;
   display: flex;
   flex-direction: column;
-  border: 4px solid black;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
 }
 
 .bookslist {
@@ -137,16 +155,17 @@ hr {
   margin-bottom: 1em;
   padding: 0.4em 0;
   border-radius: 4px;
-  border: 4px solid #000;
+  border: 1.5px solid #e5e5e5;
 }
 
 .add {
+  background-color: transparent;
   width: fit-content;
   padding: 0.4em 1.2em;
   text-align: center;
-  border-radius: 4px;
-  border: 1px solid gray;
-  box-shadow: 4px 4px rgba(0, 0, 0, 1);
+  border-radius: 6px;
+  border: 1px solid rgba(5,110,200,0.2);
+  box-shadow: 0px 2px rgba(5,110,200,0.4);
   margin-left: 230px;
   cursor: pointer;
 }
@@ -154,10 +173,11 @@ hr {
 .removeButtonStyle {
   display: block;
   padding: 0.5em 1em;
-  border-radius: 5px;
-  border: 1px solid gray;
   margin: 0 6px 4px;
-  box-shadow: 4px 4px rgba(0, 0, 0, 1);
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid rgba(5,110,200,0.2);
+  box-shadow: 0px 2px rgba(5,110,200,0.4);
   cursor: pointer;
 }
 
@@ -178,11 +198,23 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: 1.3rem;
 }
 
+.contactPar {
+ font-size: 1.2rem;
+}
+
+.contactUl {
+  font-size: 1rem;
+}
+
 .copy-right {
-  border: 3px solid black;
+  width: 100%;
+  border: 2px solid rgba(5,110,200,0.2);
+  box-shadow: 0 2px 4px 0 rgba(5,110,200,0.4);
+  border-radius: 15px;
   font-size: 1.4rem;
   padding: 0.4em 0;
   position: fixed;
