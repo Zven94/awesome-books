@@ -1,36 +1,8 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <h2> Awesome books </h2>
-  <br/>
 
-  <h3><b>Awesome books</b></h3>
+  <h3><b>Awesome Books</b></h3>
 
 </div>
 
@@ -44,8 +16,8 @@ After you're finished please remove all the comments and instructions!
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -60,101 +32,104 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello World <a name="about-project"></a>
+# 📖 Awesome Books] <a name="about-project"></a>
 
-> this is Awesome books project we have created using HTML, CSS, Javascript, linters
+> Describe your project in 1 or 2 sentences.
+
+**[Awesome Books]** is an app to make books list: you can add books, remove books and see the list of all of them. It's an SPA
 
 ## 🛠 Built With <a name="built-with"></a>
-
-1: Html
-2: CSS
-3: linters
-4: javascript
-
+  - HTML
+  - CSS
+  - JS
 ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-  <summary>Client</summary>
+  <summary>BackEnd</summary>
   <ul>
-    <li><a href="https://html.com/">Html</a></li>
-    <li><a href="https://w3schools.com/">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a></li>
   </ul>
 </details>
+
+<details>
+  <summary>Main page</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Style</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a></li>
+  </ul>
 </details>
 
 <!-- Features -->
-<p>the project explation </p>
-
-- All the functions and classes of js file were use as modules in separeted files
 
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
 
-- Added HTML file
-- Added CSS file
-- Added javascript file
+- **[SPA web]**
+- **[Effects with css]**
+- **[Use data from localStorage]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-> coming soon
+## 🚀 Live Demo <a name="live-demo"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://google.com)
+
+<p align="right">cooming soon!</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
+to run this app pls clone the repo
 
 ### Prerequisites
 
 In order to run this project you need:
 
-1: web browser
-2: an code editor
-3: Git-smc
+
+> You will need to have git bash in your pc
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-just run this command
-
-```sh
-  cd my-folder
-  git clone https://github.com/Zven94/awesome-books.git
+ run this command in the git bash:
+ >  http-server -c-1
+ > then go to the first ip direction
 
 ### Install
 
-Install this project with:
-
-run this npm command
-
-```sh
-  cd my-project
-  npm install
-```
+no need it
 
 ### Usage
 
-To run the project, execute the following command:
+A web is going to be open.
 
-open index.html file using live server extension
+Add a book filling the form and pushin the add button
+in the book list tab you will see the book you just added
+you can remove it one by one with the remove button
 
 ### Run tests
 
-coming soon!
+no need it
 
 ### Deployment
 
-coming soon!
+cooming soon ! ! !
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,18 +137,25 @@ coming soon!
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+> Nicolas Emiliano Bolañez
 
-👤 Nicolas Emiliano
+👤 **Author1**
 
 - GitHub: [@Zven94](https://github.com/Zven94)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nicolas-bola%C3%B1ez-520372222/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> we are going to add navigation to the app very soon
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[New functions for book list]**
+- [ ] **[Deployment]**
+- [ ] **[Contact tab update]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,7 +173,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project don't forgt to give a star
+> Write a message to encourage readers to support your project
+
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,8 +183,20 @@ If you like this project don't forgt to give a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microvesre who helped us during our journey
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
