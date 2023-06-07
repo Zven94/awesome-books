@@ -142,8 +142,6 @@ cooming soon ! ! !
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-  Describe 1 - 3 features you will add to the project.
-
 - [ ] **[New functions for book list]**
 - [ ] **[Deployment]**
 - [ ] **[Contact tab update]**
@@ -164,9 +162,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
- Write a message to encourage readers to support your project
-
-If you like this project...
+ Thank fot your support and your reviews! I really appreciate it
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,13 +170,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
- Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank to Microverse and his support on my education
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 <!-- LICENSE -->
 
