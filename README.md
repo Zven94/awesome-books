@@ -6,8 +6,6 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -34,8 +32,6 @@
 
 # 📖 Awesome Books] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[Awesome Books]** is an app to make books list: you can add books, remove books and see the list of all of them. It's an SPA
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -44,7 +40,6 @@
   - JS
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>BackEnd</summary>
@@ -71,8 +66,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[SPA web]**
 - **[Effects with css]**
 - **[Use data from localStorage]**
@@ -82,8 +75,6 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://google.com)
 
@@ -100,7 +91,7 @@ to run this app pls clone the repo
 In order to run this project you need:
 
 
-> You will need to have git bash in your pc
+You will need to have git bash in your pc
 
 
 ### Setup
@@ -108,8 +99,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
  run this command in the git bash:
- >  http-server -c-1
- > then go to the first ip direction
+   http-server -c-1
+   then go to the first ip direction
 
 ### Install
 
@@ -137,7 +128,7 @@ cooming soon ! ! !
 
 ## 👥 Authors <a name="authors"></a>
 
-> Nicolas Emiliano Bolañez
+ Nicolas Emiliano Bolañez
 
 👤 **Author1**
 
@@ -151,7 +142,7 @@ cooming soon ! ! !
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+  Describe 1 - 3 features you will add to the project.
 
 - [ ] **[New functions for book list]**
 - [ ] **[Deployment]**
@@ -173,7 +164,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+ Write a message to encourage readers to support your project
 
 If you like this project...
 
@@ -183,7 +174,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+ Give credit to everyone who inspired your codebase.
 
 I would like to thank...
 
