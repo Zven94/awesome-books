@@ -76,7 +76,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link] <p align="right">cooming soon!</p>
+- [cooming soon!]
 
 <!-- GETTING STARTED -->
 
